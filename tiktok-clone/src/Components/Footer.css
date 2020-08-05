@@ -1,0 +1,57 @@
+.footer {
+    position: relative;
+    bottom: 23%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding: 5%;
+}
+
+.footer_text {
+    flex: 1;
+}
+
+
+p {
+    font-weight: 200;
+}
+
+.music_note {
+    position: absolute;
+}
+
+.ticker_bundle > .ticker {
+    height: fit-content;
+    margin-left: 6%;
+    margin-right: 22%;
+}
+
+.spin_record {
+    animation: spinIt infinite 5s linear;
+    -webkit-animation: spinIt infinite 5s linear;
+    height: 50px;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    position: absolute;
+    bottom: 11%;
+    right: 5%;
+
+}
+
+
+@keyframes spinIt {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+         }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        }
+    }

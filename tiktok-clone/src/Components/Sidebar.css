@@ -1,0 +1,21 @@
+.sidebar {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-shadow: -5px 2px 5px rgba(0,0,0,0.65);
+}
+
+.sidebar_buttons {
+    padding: 35%;
+}

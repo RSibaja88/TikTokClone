@@ -1,0 +1,34 @@
+html {
+  scroll-snap-type: y mandatory; /* this is needed to make the snap scroll work*/
+}
+
+.app {
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+.app_videos {
+  position: relative;
+  height: 800px;
+  width: 80%;
+  border-radius: 20px;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+  overflow: scroll;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/*these hide the scrollbar*/
+.app_videos::-webkit-scrollbar {
+  display: none;
+}
+
+.app_videos {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
